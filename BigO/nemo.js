@@ -36,6 +36,7 @@ function funChallenge(input) {
 }
 
 // O(1+1+4n+1)
+// So:
 // O(n)
 
 
@@ -58,4 +59,5 @@ function anotherFunChallenge(input) {
 
 
 // O(4 + 5n(or 7n))
+// So:
 // O(n)
