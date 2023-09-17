@@ -170,3 +170,40 @@ function arrayOfHiNTimes(n) {
 }
 
 arrayOfHiNTimes(6);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Twitter Exercise
+
+// Find 1st, and last tweet
+const array = [
+  { tweet: "Hi", date: 2012 }, //
+  { tweet: "my", date: 2014 }, //O(n^2)
+  { tweet: "Teddy", date: 2018 }, //
+];
+
+//array[0]; // O(1)
+//array[array.length - 1]; // O(1)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Loops
+
+const findNemo2 = (array) => {
+  array.forEach((fish) => {
+    if (fish === "nemo") {
+      console.log("Found Nemo!");
+    }
+  });
+};
+
+const findNemo3 = (array) => {
+  for (let fish of array) {
+    if (fish === "nemo") {
+      console.log("Found Nemo!");
+    }
+  }
+};
+
+findNemo2(everyone);
+findNemo3(everyone);
